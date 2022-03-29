@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+/* header */
+
+.logo-line{
+    width: 150px;
+    height: 1px;
+    background-color: black;
+}
+
+.logo-text p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.logo-link{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+.nav-link{
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    margin: auto;
+    color: black;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: rgb(129, 123, 123);
+}
+
+.header-line{
+    width: 55%;
+    height: 0.5px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 332px;
+}
+
+/* header */
+
+
+
+/* main */
+
+main{
+    width: 61.5%;
+    margin: auto;
+}
+
+.heading{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 80px;   
+}
+
+.about-text{
+    width: 60.8%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+
+/* owl - targets */
+
+.owl-div{
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.target{
+    text-align: center;
+}
+
+.owl-carousel{
+    margin-top: 30px;
+}
+
+a{
+    color: black;
+}
+
+/* owl - targets */
+
+
+/* social */
+
+.social-div{
+    width: 60.8%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+}
+
+.social{
+    justify-content: space-between;
+    margin: auto;
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+.social-line{
+    width: 55%;
+    height: 0.5px;
+    background-color: black;
+    margin-left: 390px;
+    margin: auto;
+}
+
+/* social */
+
+/* main */
